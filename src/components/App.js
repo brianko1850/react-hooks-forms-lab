@@ -8,7 +8,8 @@ function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
  function addItems(item) {
-   setItems([...itemData, item])
+   setItems([...items, item])
+   console.log("item", item)
  }
 
   function handleDarkModeClick() {
